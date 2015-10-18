@@ -1,0 +1,35 @@
+{
+  "name": "cloud-cron",
+  "version": "0.0.1",
+  "description": "This is a simple api on top of agenda for scheduling http requests (get and post)",
+  "main": "server.js",
+  "dependencies": {
+    "agenda": "^0.7.0",
+    "agenda-ui": "^0.0.7",
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "moment": "^2.10.3",
+    "moment-timezone": "^0.4.1",
+    "request": "^2.65.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Chakradhar Jonagam",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/debianmaster/request-scheduler.git"
+  },
+  "keywords": [
+    "scheduler",
+    "get",
+    "post"
+  ],
+  "bugs": {
+    "url": "https://github.com/debianmaster/request-scheduler/issues"
+  },
+  "homepage": "https://github.com/debianmaster/request-scheduler#readme"
+}
