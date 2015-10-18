@@ -8,7 +8,7 @@ This is a simple api on top of agenda for scheduling http requests (get and post
 
 
 ### Testing
-make a post request to   (https://github.com/request/request)    format
+make a post request to
 
 `http://localhost:9000/schedule`   
 ```json
@@ -19,4 +19,6 @@ make a post request to   (https://github.com/request/request)    format
     "timezone" : "Asia/Kolkata"
 }
 ```
+
+Note:  json format above support (https://github.com/request/request)    
 
