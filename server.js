@@ -8,7 +8,7 @@ var bodyParser = require('body-parser');
 var jsonParser = bodyParser.json();
 
 var app = express();
-var mongoConnectionString = "mongodb://localhost:27017/agenda";
+var mongoConnectionString = process.env.MONGO_URL ||  "mongodb://localhost:27017/agenda";
 var agenda = new Agenda({db: {address: mongoConnectionString,collection:'jobs',options:{}}});
 
 agenda.define('scheduleJob', function(job, done) {
