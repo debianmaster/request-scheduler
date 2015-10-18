@@ -20,5 +20,7 @@ make a post request to
 }
 ```
 
-Note:  json format above support (https://github.com/request/request)    
+Note:  
+> json format above support (https://github.com/request/request)  
+> A Running mongodb connection is required (defaults to localhost)
 
