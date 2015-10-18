@@ -4,7 +4,7 @@
   "description": "This is a simple api on top of agenda for scheduling http requests (get and post)",
   "main": "server.js",
   "dependencies": {
-    "agenda": "^0.7.0",
+    "agenda": "^0.6.28",
     "agenda-ui": "^0.0.7",
     "body-parser": "^1.14.1",
     "express": "^4.13.3",
