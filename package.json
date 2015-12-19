@@ -10,6 +10,7 @@
     "express": "^4.13.3",
     "moment": "^2.10.3",
     "moment-timezone": "^0.4.1",
+    "mongodb": "^2.0.52",
     "request": "^2.65.0"
   },
   "devDependencies": {},
